@@ -1,10 +1,10 @@
-package com.bcopstein.sistvendas.aplicacao.casosDeUso;
+package com.bcopstein.sistvendas.elementosDeAplicacao.casosDeUso;
 
 import org.springframework.stereotype.Component;
 
-import com.bcopstein.sistvendas.aplicacao.dtos.OrcamentoDTO;
-import com.bcopstein.sistvendas.dominio.modelos.OrcamentoModel;
-import com.bcopstein.sistvendas.dominio.servicos.ServicoDeVendas;
+import com.bcopstein.sistvendas.elementosDeAplicacao.dtos.OrcamentoDTO;
+import com.bcopstein.sistvendas.elementosDeDominio.modelos.OrcamentoModel;
+import com.bcopstein.sistvendas.elementosDeDominio.servicos.ServicoDeVendas;
 
 @Component
 public class EfetivaOrcamentoUC {

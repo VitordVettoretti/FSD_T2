@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bcopstein.sistvendas.aplicacao.casosDeUso.CriaOrcamentoUC;
-import com.bcopstein.sistvendas.aplicacao.casosDeUso.EfetivaOrcamentoUC;
-import com.bcopstein.sistvendas.aplicacao.casosDeUso.ProdutosDisponiveisUC;
-import com.bcopstein.sistvendas.aplicacao.dtos.ItemPedidoDTO;
-import com.bcopstein.sistvendas.aplicacao.dtos.OrcamentoDTO;
-import com.bcopstein.sistvendas.aplicacao.dtos.ProdutoDTO;
+import com.bcopstein.sistvendas.elementosDeAplicacao.casosDeUso.CriaOrcamentoUC;
+import com.bcopstein.sistvendas.elementosDeAplicacao.casosDeUso.EfetivaOrcamentoUC;
+import com.bcopstein.sistvendas.elementosDeAplicacao.casosDeUso.ProdutosDisponiveisUC;
+import com.bcopstein.sistvendas.elementosDeAplicacao.dtos.ItemPedidoDTO;
+import com.bcopstein.sistvendas.elementosDeAplicacao.dtos.OrcamentoDTO;
+import com.bcopstein.sistvendas.elementosDeAplicacao.dtos.ProdutoDTO;
 
 @RestController
 public class Controller {

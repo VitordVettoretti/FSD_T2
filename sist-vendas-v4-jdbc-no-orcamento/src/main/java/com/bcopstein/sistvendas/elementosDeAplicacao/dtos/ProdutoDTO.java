@@ -1,6 +1,6 @@
-package com.bcopstein.sistvendas.aplicacao.dtos;
+package com.bcopstein.sistvendas.elementosDeAplicacao.dtos;
 
-import com.bcopstein.sistvendas.dominio.modelos.ProdutoModel;
+import com.bcopstein.sistvendas.elementosDeDominio.modelos.ProdutoModel;
 
 public class ProdutoDTO{
     private long id;

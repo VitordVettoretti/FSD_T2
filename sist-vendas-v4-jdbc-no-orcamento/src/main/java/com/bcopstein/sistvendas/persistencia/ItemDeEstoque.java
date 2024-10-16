@@ -1,6 +1,6 @@
 package com.bcopstein.sistvendas.persistencia;
 
-import com.bcopstein.sistvendas.dominio.modelos.ItemDeEstoqueModel;
+import com.bcopstein.sistvendas.elementosDeDominio.modelos.ItemDeEstoqueModel;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;

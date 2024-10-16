@@ -1,8 +1,8 @@
-package com.bcopstein.sistvendas.dominio.persistencia;
+package com.bcopstein.sistvendas.elementosDeDominio.persistencia;
 
 import java.util.List;
 
-import com.bcopstein.sistvendas.dominio.modelos.OrcamentoModel;
+import com.bcopstein.sistvendas.elementosDeDominio.modelos.OrcamentoModel;
 
 public interface IOrcamentoRepositorio {
     List<OrcamentoModel> todos();

@@ -5,9 +5,9 @@ import java.util.List;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
 
-import com.bcopstein.sistvendas.dominio.modelos.ItemDeEstoqueModel;
-import com.bcopstein.sistvendas.dominio.modelos.ProdutoModel;
-import com.bcopstein.sistvendas.dominio.persistencia.IEstoqueRepositorio;
+import com.bcopstein.sistvendas.elementosDeDominio.modelos.ItemDeEstoqueModel;
+import com.bcopstein.sistvendas.elementosDeDominio.modelos.ProdutoModel;
+import com.bcopstein.sistvendas.elementosDeDominio.persistencia.IEstoqueRepositorio;
 
 @Repository
 @Primary

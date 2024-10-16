@@ -1,17 +1,17 @@
-package com.bcopstein.sistvendas.aplicacao.casosDeUso;
+package com.bcopstein.sistvendas.elementosDeAplicacao.casosDeUso;
 
 import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.bcopstein.sistvendas.aplicacao.dtos.ItemPedidoDTO;
-import com.bcopstein.sistvendas.aplicacao.dtos.OrcamentoDTO;
-import com.bcopstein.sistvendas.dominio.modelos.ItemPedidoModel;
-import com.bcopstein.sistvendas.dominio.modelos.OrcamentoModel;
-import com.bcopstein.sistvendas.dominio.modelos.PedidoModel;
-import com.bcopstein.sistvendas.dominio.modelos.ProdutoModel;
-import com.bcopstein.sistvendas.dominio.servicos.ServicoDeEstoque;
-import com.bcopstein.sistvendas.dominio.servicos.ServicoDeVendas;
+import com.bcopstein.sistvendas.elementosDeAplicacao.dtos.ItemPedidoDTO;
+import com.bcopstein.sistvendas.elementosDeAplicacao.dtos.OrcamentoDTO;
+import com.bcopstein.sistvendas.elementosDeDominio.modelos.ItemPedidoModel;
+import com.bcopstein.sistvendas.elementosDeDominio.modelos.OrcamentoModel;
+import com.bcopstein.sistvendas.elementosDeDominio.modelos.PedidoModel;
+import com.bcopstein.sistvendas.elementosDeDominio.modelos.ProdutoModel;
+import com.bcopstein.sistvendas.elementosDeDominio.servicos.ServicoDeEstoque;
+import com.bcopstein.sistvendas.elementosDeDominio.servicos.ServicoDeVendas;
 
 @Component
 public class CriaOrcamentoUC {

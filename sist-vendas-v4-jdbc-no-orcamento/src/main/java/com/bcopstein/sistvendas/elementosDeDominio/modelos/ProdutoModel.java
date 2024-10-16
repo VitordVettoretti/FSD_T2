@@ -1,4 +1,4 @@
-package com.bcopstein.sistvendas.dominio.modelos;
+package com.bcopstein.sistvendas.elementosDeDominio.modelos;
 
 public class ProdutoModel{
     private long id;

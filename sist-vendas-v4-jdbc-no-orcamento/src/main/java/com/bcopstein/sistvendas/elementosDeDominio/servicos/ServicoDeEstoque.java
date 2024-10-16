@@ -1,13 +1,13 @@
-package com.bcopstein.sistvendas.dominio.servicos;
+package com.bcopstein.sistvendas.elementosDeDominio.servicos;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.bcopstein.sistvendas.dominio.persistencia.IEstoqueRepositorio;
-import com.bcopstein.sistvendas.dominio.persistencia.IProdutoRepositorio;
-import com.bcopstein.sistvendas.dominio.modelos.ItemDeEstoqueModel;
-import com.bcopstein.sistvendas.dominio.modelos.ProdutoModel;
+import com.bcopstein.sistvendas.elementosDeDominio.modelos.ItemDeEstoqueModel;
+import com.bcopstein.sistvendas.elementosDeDominio.modelos.ProdutoModel;
+import com.bcopstein.sistvendas.elementosDeDominio.persistencia.IEstoqueRepositorio;
+import com.bcopstein.sistvendas.elementosDeDominio.persistencia.IProdutoRepositorio;
 
 @Service
 public class ServicoDeEstoque{

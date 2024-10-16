@@ -1,11 +1,11 @@
-package com.bcopstein.sistvendas.aplicacao.casosDeUso;
+package com.bcopstein.sistvendas.elementosDeAplicacao.casosDeUso;
 
 import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.bcopstein.sistvendas.aplicacao.dtos.ProdutoDTO;
-import com.bcopstein.sistvendas.dominio.servicos.ServicoDeEstoque;
+import com.bcopstein.sistvendas.elementosDeAplicacao.dtos.ProdutoDTO;
+import com.bcopstein.sistvendas.elementosDeDominio.servicos.ServicoDeEstoque;
 
 @Component
 public class ProdutosDisponiveisUC {

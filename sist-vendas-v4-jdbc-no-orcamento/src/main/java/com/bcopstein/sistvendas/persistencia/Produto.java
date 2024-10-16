@@ -1,6 +1,6 @@
 package com.bcopstein.sistvendas.persistencia;
 
-import com.bcopstein.sistvendas.dominio.modelos.ProdutoModel;
+import com.bcopstein.sistvendas.elementosDeDominio.modelos.ProdutoModel;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

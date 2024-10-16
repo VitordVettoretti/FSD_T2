@@ -1,10 +1,10 @@
-package com.bcopstein.sistvendas.aplicacao.dtos;
+package com.bcopstein.sistvendas.elementosDeAplicacao.dtos;
 
 import java.util.LinkedList;
 import java.util.List;
 
-import com.bcopstein.sistvendas.dominio.modelos.ItemPedidoModel;
-import com.bcopstein.sistvendas.dominio.modelos.OrcamentoModel;
+import com.bcopstein.sistvendas.elementosDeDominio.modelos.ItemPedidoModel;
+import com.bcopstein.sistvendas.elementosDeDominio.modelos.OrcamentoModel;
 
 public class OrcamentoDTO {
     private long id;
