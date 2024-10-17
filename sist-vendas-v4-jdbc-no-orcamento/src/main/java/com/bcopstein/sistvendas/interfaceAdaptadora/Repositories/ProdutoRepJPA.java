@@ -1,4 +1,4 @@
-package com.bcopstein.sistvendas.RelacaoExterna;
+package com.bcopstein.sistvendas.interfaceAdaptadora.Repositories;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
 
+import com.bcopstein.sistvendas.RelacaoExterna.BD.ProdutoJPA_ItfRep;
 import com.bcopstein.sistvendas.elementosDeDominio.modelos.ProdutoModel;
 import com.bcopstein.sistvendas.elementosDeDominio.persistencia.IProdutoRepositorio;
 

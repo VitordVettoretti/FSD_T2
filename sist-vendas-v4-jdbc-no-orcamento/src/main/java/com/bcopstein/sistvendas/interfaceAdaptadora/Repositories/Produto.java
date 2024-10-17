@@ -1,4 +1,4 @@
-package com.bcopstein.sistvendas.RelacaoExterna;
+package com.bcopstein.sistvendas.interfaceAdaptadora.Repositories;
 
 import com.bcopstein.sistvendas.elementosDeDominio.modelos.ProdutoModel;
 

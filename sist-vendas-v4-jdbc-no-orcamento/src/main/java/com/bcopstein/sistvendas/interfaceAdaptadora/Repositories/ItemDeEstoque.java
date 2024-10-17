@@ -1,6 +1,6 @@
 package com.bcopstein.sistvendas.interfaceAdaptadora.Repositories;
 
-import com.bcopstein.sistvendas.RelacaoExterna.Produto;
+import com.bcopstein.sistvendas.interfaceAdaptadora.Repositories.Produto;
 import com.bcopstein.sistvendas.elementosDeDominio.modelos.ItemDeEstoqueModel;
 
 import jakarta.persistence.CascadeType;
