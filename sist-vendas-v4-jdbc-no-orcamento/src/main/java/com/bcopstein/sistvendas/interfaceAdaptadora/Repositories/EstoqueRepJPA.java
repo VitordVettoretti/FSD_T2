@@ -1,10 +1,12 @@
-package com.bcopstein.sistvendas.persistencia;
+package com.bcopstein.sistvendas.interfaceAdaptadora.Repositories;
 
 import java.util.List;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
 
+import com.bcopstein.sistvendas.RelacaoExterna.EstoqueJPA_ItfRep;
+import com.bcopstein.sistvendas.RelacaoExterna.Produto;
 import com.bcopstein.sistvendas.elementosDeDominio.modelos.ItemDeEstoqueModel;
 import com.bcopstein.sistvendas.elementosDeDominio.modelos.ProdutoModel;
 import com.bcopstein.sistvendas.elementosDeDominio.persistencia.IEstoqueRepositorio;

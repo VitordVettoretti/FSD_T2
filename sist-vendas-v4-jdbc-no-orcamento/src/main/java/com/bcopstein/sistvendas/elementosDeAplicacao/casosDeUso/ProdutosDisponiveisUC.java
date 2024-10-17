@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.bcopstein.sistvendas.elementosDeAplicacao.dtos.ProdutoDTO;
+import com.bcopstein.sistvendas.RelacaoExterna.WEB.dtos.ProdutoDTO;
 import com.bcopstein.sistvendas.elementosDeDominio.servicos.ServicoDeEstoque;
 
 @Component

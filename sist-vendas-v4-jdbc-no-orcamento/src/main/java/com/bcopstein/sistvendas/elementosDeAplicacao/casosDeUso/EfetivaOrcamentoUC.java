@@ -2,7 +2,7 @@ package com.bcopstein.sistvendas.elementosDeAplicacao.casosDeUso;
 
 import org.springframework.stereotype.Component;
 
-import com.bcopstein.sistvendas.elementosDeAplicacao.dtos.OrcamentoDTO;
+import com.bcopstein.sistvendas.RelacaoExterna.WEB.dtos.OrcamentoDTO;
 import com.bcopstein.sistvendas.elementosDeDominio.modelos.OrcamentoModel;
 import com.bcopstein.sistvendas.elementosDeDominio.servicos.ServicoDeVendas;
 

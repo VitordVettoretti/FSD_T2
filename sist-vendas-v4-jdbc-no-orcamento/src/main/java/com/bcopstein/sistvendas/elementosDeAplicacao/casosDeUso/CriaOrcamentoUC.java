@@ -4,8 +4,8 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.bcopstein.sistvendas.elementosDeAplicacao.dtos.ItemPedidoDTO;
-import com.bcopstein.sistvendas.elementosDeAplicacao.dtos.OrcamentoDTO;
+import com.bcopstein.sistvendas.RelacaoExterna.WEB.dtos.ItemPedidoDTO;
+import com.bcopstein.sistvendas.RelacaoExterna.WEB.dtos.OrcamentoDTO;
 import com.bcopstein.sistvendas.elementosDeDominio.modelos.ItemPedidoModel;
 import com.bcopstein.sistvendas.elementosDeDominio.modelos.OrcamentoModel;
 import com.bcopstein.sistvendas.elementosDeDominio.modelos.PedidoModel;

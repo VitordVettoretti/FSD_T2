@@ -1,4 +1,4 @@
-package com.bcopstein.sistvendas.persistencia;
+package com.bcopstein.sistvendas.RelacaoExterna;
 
 import org.springframework.data.repository.ListCrudRepository;
 

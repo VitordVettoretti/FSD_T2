@@ -1,4 +1,4 @@
-package com.bcopstein.sistvendas.elementosDeAplicacao.dtos;
+package com.bcopstein.sistvendas.RelacaoExterna.WEB.dtos;
 
 public class ItemPedidoDTO {
     private long idProduto;

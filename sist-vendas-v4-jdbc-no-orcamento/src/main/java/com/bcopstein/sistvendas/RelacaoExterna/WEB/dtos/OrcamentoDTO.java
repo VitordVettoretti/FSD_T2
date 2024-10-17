@@ -1,4 +1,4 @@
-package com.bcopstein.sistvendas.elementosDeAplicacao.dtos;
+package com.bcopstein.sistvendas.RelacaoExterna.WEB.dtos;
 
 import java.util.LinkedList;
 import java.util.List;

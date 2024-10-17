@@ -1,4 +1,4 @@
-package com.bcopstein.sistvendas.interfaceAdaptadora;
+package com.bcopstein.sistvendas.interfaceAdaptadora.Controller;
 
 import java.util.List;
 
@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.bcopstein.sistvendas.RelacaoExterna.WEB.dtos.ItemPedidoDTO;
+import com.bcopstein.sistvendas.RelacaoExterna.WEB.dtos.OrcamentoDTO;
+import com.bcopstein.sistvendas.RelacaoExterna.WEB.dtos.ProdutoDTO;
 import com.bcopstein.sistvendas.elementosDeAplicacao.casosDeUso.CriaOrcamentoUC;
 import com.bcopstein.sistvendas.elementosDeAplicacao.casosDeUso.EfetivaOrcamentoUC;
 import com.bcopstein.sistvendas.elementosDeAplicacao.casosDeUso.ProdutosDisponiveisUC;
-import com.bcopstein.sistvendas.elementosDeAplicacao.dtos.ItemPedidoDTO;
-import com.bcopstein.sistvendas.elementosDeAplicacao.dtos.OrcamentoDTO;
-import com.bcopstein.sistvendas.elementosDeAplicacao.dtos.ProdutoDTO;
 
 @RestController
 public class Controller {
